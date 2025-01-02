@@ -11,7 +11,7 @@ public class Frame extends JFrame implements MouseListener {
 
     Frame() {
 
-        labels = new ArrayList<JLabel>();
+        labels = new ArrayList<>();
         for (int i = 1; i < 10; i++) {
             JLabel label = new JLabel();
             label.setFont(new Font("Arial", Font.BOLD, 20));
